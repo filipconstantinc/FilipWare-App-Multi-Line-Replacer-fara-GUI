@@ -1,0 +1,57 @@
+
+Descriere pentru Utilizator Final:
+
+Aceasta aplicatie software ofera o modalitate simpla de inlocuire a textului in fisierele CSV. Este utila in situatiile in care doriti sa inlocuiti anumite siruri de caractere dintr-un fisier CSV cu altele specifice. Puteti utiliza aceasta aplicatie pentru a efectua inlocuiri de text sensibile sau insensibile la majuscule, in functie de preferintele dvs.
+
+Cum sa Utilizati:
+
+1. **Pregatirea fisierului "list.csv":**
+   - Deschideti fisierul "list.csv" intr-un editor de text sau intr-un program similar.
+   - Adaugati perechi de siruri de caractere in doua coloane separate, reprezentand textul pe care doriti sa-l gasiti si textul cu care doriti sa-l inlocuiti.
+   - Salvati modificarile.
+
+2. **Pregatirea fisierului "data.csv":**
+   - Deschideti fisierul "data.csv" intr-un editor de text sau intr-un program similar. Acesta este fisierul in care doriti sa faceti inlocuirile de text.
+
+3. **Configurarea aplicatiei:**
+   - Deschideti scriptul intr-un editor de text sau intr-un mediu de dezvoltare.
+   - Inlocuiti caile de fisiere pentru "data.csv", "list.csv", si "output.csv" cu caile de fisiere corespunzatoare.
+   - Salvati modificarile.
+
+4. **Executia scriptului:**
+   - Rulati scriptul intr-un terminal sau mediu de executie Python.
+   - Verificati rezultatul in fisierul "output.csv" generat. Acesta contine datele modificate conform inlocuirilor specificate.
+
+5. **Rezultate:**
+   - Scriptul va afisa un mesaj de succes in cazul in care inlocuirea de text a fost efectuata cu succes.
+   - In cazul in care apare o eroare, un mesaj de eroare specific va fi afisat, oferind informatii despre natura problemei.
+
+
+---
+
+User Guide:
+
+This software provides a simple way to replace text in CSV files. It is useful when you need to replace specific strings in a CSV file with others. You can use this application to perform case-sensitive or case-insensitive text replacements, depending on your preferences.
+
+How to Use:
+
+1. **Prepare the "list.csv" file:**
+   - Open the "list.csv" file in a text editor or a similar program.
+   - Add pairs of strings in two separate columns, representing the text you want to find and the text you want to replace it with.
+   - Save the changes.
+
+2. **Prepare the "data.csv" file:**
+   - Open the "data.csv" file in a text editor or a similar program. This is the file where you want to make the text replacements.
+
+3. **Configure the application:**
+   - Open the script in a text editor or a development environment.
+   - Replace the file paths for "data.csv," "list.csv," and "output.csv" with the appropriate file paths.
+   - Save the changes.
+
+4. **Run the script:**
+   - Execute the script in a terminal or a Python execution environment.
+   - Check the result in the generated "output.csv" file. It contains the modified data according to the specified replacements.
+
+5. **Results:**
+   - The script will display a success message if the text replacement was successful.
+   - If an error occurs, a specific error message will be displayed, providing information about the nature of the problem.
